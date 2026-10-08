@@ -16,3 +16,6 @@ server/data/
 # System files
 .DS_Store
 Thumbs.db
+
+# Local notes
+TUTORIAL.md
