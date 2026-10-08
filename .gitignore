@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.angular/
+
+# Runtime state
+server/data/
+
+# Logs & env
+*.log
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db

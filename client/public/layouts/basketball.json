@@ -1,0 +1,23 @@
+{
+  "width": 640,
+  "height": 360,
+  "background": "#050505",
+  "elements": [
+    { "type": "clock", "x": 320, "y": 20, "bind": "clock.remainingMs", "height": 90, "color": "#ffcc00" },
+
+    { "type": "text", "x": 120, "y": 150, "bind": "home.name", "size": 28, "color": "#ffffff" },
+    { "type": "digits", "x": 120, "y": 175, "bind": "home.score", "digits": 3, "height": 110, "color": "#ff3b30" },
+    { "type": "text", "x": 85, "y": 325, "text": "FOULS", "size": 18, "color": "#aaaaaa" },
+    { "type": "digits", "x": 160, "y": 307, "bind": "home.fouls", "digits": 1, "height": 36, "color": "#ff9500" },
+
+    { "type": "text", "x": 520, "y": 150, "bind": "away.name", "size": 28, "color": "#ffffff" },
+    { "type": "digits", "x": 520, "y": 175, "bind": "away.score", "digits": 3, "height": 110, "color": "#ff3b30" },
+    { "type": "text", "x": 485, "y": 325, "text": "FOULS", "size": 18, "color": "#aaaaaa" },
+    { "type": "digits", "x": 560, "y": 307, "bind": "away.fouls", "digits": 1, "height": 36, "color": "#ff9500" },
+
+    { "type": "text", "x": 320, "y": 175, "text": "PERIOD", "size": 18, "color": "#aaaaaa" },
+    { "type": "digits", "x": 320, "y": 195, "bind": "period", "digits": 1, "height": 60, "color": "#34c759" },
+    { "type": "indicator", "x": 320, "y": 300, "bind": "horn", "radius": 14, "color": "#ff9500" },
+    { "type": "text", "x": 320, "y": 330, "text": "HORN", "size": 14, "color": "#aaaaaa" }
+  ]
+}
